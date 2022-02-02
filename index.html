@@ -1,0 +1,239 @@
+<!DOCTYPE html >
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="fontawesome-free-5.15.4-web/css/fontawesome.css" rel="stylesheet"> <!--load all styles -->
+
+  <link href="fontawesome-free-5.15.4-web/css/brands.css" rel="stylesheet"> <!--load all styles -->
+  <!--fontasesome-->
+  <link href="fontawesome-free-5.15.4-web/css/solid.css" rel="stylesheet"> <!--load all styles -->
+  <!--favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <!-- bootstrap cdn style-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--my custome style-->
+
+  <!--Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+ 
+<link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Easybank landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">حول</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">اتصل بنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">المدونة</a>
+          </li>
+          
+          
+         
+        </ul>
+        <a href="#" target="_blank" class="primary-btn">طلب دعوة</a>
+      </div>
+    </div>
+  </nav>
+<!--Header-->
+<header>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 col-12">
+        <h1 class="main-heading">الجيل القادم من الخدمات المصرفية الرقمية</h1>
+        <p class="lead my-4">انجذ معاملاتك  المالية عبر الإنترنت. سيكون حسابك على Easybank مكانًا شاملاً للإنفاق والادخار ووضع الميزانية والاستثمار وغير ذلك الكثير.
+        </p>
+        <a href="#" target="_blank" class="primary-btn">طلب دعوة</a>
+      </div>
+      <div class="col-md-6 col-12 img-section">
+        <img class="img-fluid img-mockup" src="images/image-mockups.png"  alt="bg-intro-desktop">
+      </div>
+    </div>
+  </div>
+</header>
+<!--Why choose easy bank-->
+<section class="why">
+  <div class="container">
+    <h2> لماذا تختار Easybank؟</h2>
+    <p class="col-md-7 info">
+      نحن نستفيد من الخدمات المصرفية المفتوحة لتحويل حسابك المصرفي إلى مركزك المالي. مراقبة
+      اموالك كما لم يحدث من قبل. 
+    </p>
+
+    <div class="row features">
+      <div class="col-md-3">
+        <span><img src="images/icon-online.svg" alt="icon-online"> </span>
+        <h3>الخدمات المصرفية عبر الإنترنت</h3>
+        <p>
+          تتيح لك تطبيقات الويب والهاتف المحمول الحديثة الخاصة بنا تتبع أموالك
+          أينما كنت في العالم.
+        </p>
+      </div>
+     
+      <div class="col-md-3">
+        <span><img src="images/icon-budgeting.svg" alt="icon-budgeting"> </span>
+        <h3>الميزانية البسيطة</h3>
+        <p>
+          انظر بالضبط أين تذهب أموالك كل شهر. تلقي إشعارات عندما تكون كذلك
+          على وشك الوصول إلى حدودك
+        </p>
+      </div>
+      <div class="col-md-3">
+        <span><img src="images/icon-onboarding.svg" alt="icon-onboarding"> </span>
+        <h3>الانضمام السريع</h3>
+        <p>
+          نحن لا نصنع الفروع. افتح حسابك في دقائق عبر الإنترنت وابدأ في التحكم
+          من أموالك على الفور.
+        
+        </p>
+      </div>
+      <div class="col-md-3">
+        <span><img src="images/icon-api.svg" alt="icon-api"> </span>
+        <h3 class="feat-heading">فتح API</h3>
+        <p>
+          قم بإدارة مدخراتك واستثماراتك ومعاشاتك وغير ذلك الكثير من حساب واحد. تتبع
+          لم يكن أموالك أسهل من أي وقت مضى.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--latest Articles-->
+<section class="lates-articles">
+<div class="container">
+  <h2>أحدث المقالات</h2>
+  <div class="row">
+    <div class="col-md-3">
+      <!--card1-->
+      <div class="card">
+        <div class="card-header">
+          <img class="img-fluid img-thumbnail currency-img" src="images/image-currency.jpg" alt="image-currency">
+        </div>
+        <div class="card-body">
+          <span>بقلم كلير روبنسون</span>
+         <a href="#" target="_blank" rel="noopener noreferrer"><h4>استلام الأموال بأي عملة بدون رسوم</h4></a> 
+          <p>العالم يتقلص وأصبحنا أكثر قدرة على الحركة. فلماذا يجب أن تكون
+            اضطر لتلقي المال فقط في واحدة ..
+          </br></br>    
+          </p>
+        </div>
+      </div>
+    </div>
+     <!--card2-->
+    <div class="col-md-3"> <div class="card">
+      <div class="card-header">
+        <img class="img-fluid img-thumbnail" src="images/image-restaurant.jpg" alt="image-restaurant">
+      </div>
+      <div class="card-body">
+        <span>بقلم ويلسون هاتون</span>
+       <a href="#" target="_blank" rel="noopener noreferrer"><h4>عالج نفسك دون القلق بشأن المال</h4></a> 
+       تتيح لك ميزة إعداد الميزانية البسيطة الخاصة بنا الفصل بين إنفاقك وتعيينه
+       حدود واقعية كل شهر. وهذا يعني انك …       
+      </br></br>    
+ 
+      </p>
+      </div>
+      </div>
+    </div>
+         <!--card3-->
+
+    <div class="col-md-3"><div class="card">
+      <div class="card-header">
+        <img class="img-fluid img-thumbnail" src="images/image-plane.jpg" alt="image-plane">
+      </div>
+      <div class="card-body">
+        <span>بقلم ويلسون هاتون</span>
+       <a href="#" target="_blank" rel="noopener noreferrer"><h4>خذ بطاقة Easybank الخاصة بك أينما ذهبت</h4></a> 
+        <p>  
+          نريدك أن تستمتع برحلاتك. هذا هو السبب في أننا لا نفرض أي رسوم على المشتريات
+          أثناء تواجدك بالخارج. سنعرض لك حتى ...  
+        </p>
+      </div>
+    </div>
+  </div>
+     <!--card4-->
+    <div class="col-md-3"> <div class="card">
+      <div class="card-header">
+        <img class="img-fluid img-thumbnail" src="images/image-confetti.jpg" alt="image-confetti">
+      </div>
+      <div class="card-body">
+        <span>بقلم كلير روبنسون</span>
+        <a href="#" target="_blank" rel="noopener noreferrer"><h4>حسابات بيتا المدعوة فقط متاحة الآن!</h4></a>
+        <p>بعد الكثير من العمل الشاق من قبل الفريق بأكمله ، يسعدنا إطلاق الإصدار التجريبي المغلق.
+          من السهل طلب دعوة من خلال الموقع ...  
+      </br>    
+        </p>
+      </div>
+  </div>
+      </div>
+        </div>
+</div>
+</section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="social-icon list-unstyled d-flex">
+            <li><a href="#"><img src="images/icon-pinterest.svg" alt=""> </a></li>
+            <li><a href="#"><img src="images/icon-youtube.svg" alt=""> </a></li>
+            <li><a href="#"><img src="images/icon-twitter.svg" alt=""> </a></li>
+            <li><a href="#"><img src="images/icon-pinterest.svg" alt=""> </a></li>
+            <li><a href="#"><img src="images/icon-instagram.svg" alt=""> </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="pages  list-unstyled">
+            <li class="list-item"><a href="#" class="link">حولنا</a></li>
+            <li class="list-item"><a href="#" class="link">اتصل بنا</a></li>
+            <li class="list-item"><a href="#" class="link">المدونة</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="pages  list-unstyled">
+            <li class="list-item"><a href="#" class="link">الرئيسية</a></li>
+            <li class="list-item"><a href="#" class="link">الدعم</a></li>
+            <li class="list-item"><a href="#" class="link">السياسة والخصوصية</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 text-right last">
+          <a href="#" class="primary-btn ">طلب دعوة</a>
+          <p class="copyright"> © Easybank. جميع الحقوق محفوظة</p>
+        </div>
+         
+      </div>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">AhmedMubarak</a>.
+    </p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
